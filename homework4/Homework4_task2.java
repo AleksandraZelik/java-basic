@@ -1,4 +1,4 @@
-package Homework4;
+package homework4;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
