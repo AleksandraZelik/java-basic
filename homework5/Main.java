@@ -27,8 +27,5 @@ public class Main {
         Credit credit=new Credit(100000,15, 36);
         System.out.println(credit.getSum());
         System.out.println(credit.getPercent());
-        System.out.println(credit.countMonthPay());
-
-
     }
     }
