@@ -25,17 +25,6 @@ public class Triangle extends Figure{
         return basic;
     }
 
-    public void setLeg1(double leg1) {
-        this.leg1 = leg1;
-    }
-    public void setLeg2(double leg2) {
-        this.leg2 = leg2;
-    }
-    public void setBasic(double basic) {
-        this.basic = basic;
-    }
-
-
     public double square() {
         double p=(leg1+leg2+basic)/2;
         double s=p*(p-leg1)*(p-leg2)*(p-basic);
